@@ -881,7 +881,7 @@ Write a SQL script that creates a stored procedure  `ComputeAverageWeightedScore
 
 **Tips**:
 
-- [Calculate-Weighted-Average](https://intranet.hbtn.io/rltoken/ixTkzp3tma5h7tX59hsXow "Calculate-Weighted-Average")
+- [Calculate-Weighted-Average](https://www.wikihow.com/Calculate-Weighted-Average)
 
 ```bash
 bob@dylan:~$ cat 100-init.sql
@@ -984,7 +984,7 @@ Write a SQL script that creates a stored procedure  `ComputeAverageWeightedScore
 
 **Tips**:
 
-- [Calculate-Weighted-Average](https://intranet.hbtn.io/rltoken/ixTkzp3tma5h7tX59hsXow "Calculate-Weighted-Average")
+- [Calculate-Weighted-Average](https://www.wikihow.com/Calculate-Weighted-Average)
 
 ```bash
 bob@dylan:~$ cat 101-init.sql
