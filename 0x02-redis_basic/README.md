@@ -127,7 +127,7 @@ Create and return function that increments the count for that key every time the
 
 Remember that the first argument of the wrapped function will be  `self`  which is the instance itself, which lets you access the Redis instance.
 
-Protip: when defining a decorator it is useful to use  `functool.wraps`  to conserve the original function’s name, docstring, etc. Make sure you use it as described  [here](https://intranet.hbtn.io/rltoken/-uqNijoWLQP46jI2hT1ZUw "here").
+Protip: when defining a decorator it is useful to use  `functool.wraps`  to conserve the original function’s name, docstring, etc. Make sure you use it as described  [here](https://docs.python.org/3.7/library/functools.html#functools.wraps).
 
 Decorate  `Cache.store`  with  `count_calls`.
 
