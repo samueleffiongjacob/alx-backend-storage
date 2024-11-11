@@ -28,23 +28,23 @@ Records in a MongoDB database are called documents, and the field values may inc
 
 -   [NoSQL Databases Explained](https://riak.com/resources/nosql-databases/)
 
--   [What is NoSQL ?](https://alx-intranet.hbtn.io/rltoken/96R3ey5fMYFEZvqCzfQpXA "What is NoSQL ?")
+-   [What is NoSQL ?](https://www.youtube.com/watch?v=qUV2j3XBRHc)
 
--   [Building Your First Application: An Introduction to MongoDB](https://alx-intranet.hbtn.io/rltoken/KdQw7iu6r0ZxGq7xjg8XwA "Building Your First Application: An Introduction to MongoDB")
+-   [Building Your First Application: An Introduction to MongoDB](https://www.youtube.com/watch?v=E-1xI85Zog8)
 
--   [MongoDB Tutorial 2 : Insert, Update, Remove, Query](https://alx-intranet.hbtn.io/rltoken/DARNLVL94BA2VJq-8SOcjw "MongoDB Tutorial 2 : Insert, Update, Remove, Query")
+-   [MongoDB Tutorial 2 : Insert, Update, Remove, Query](https://www.youtube.com/watch?v=CB9G5Dvv-EE)
 
--   [Aggregation](https://alx-intranet.hbtn.io/rltoken/YPBgakK9dBDy7UvOajMuIg "Aggregation")
+-   [Aggregation](https://www.mongodb.com/docs/manual/aggregation/)
 
--   [Introduction to MongoDB and Python](https://alx-intranet.hbtn.io/rltoken/oGMMglCCSi0a3_wZCJcAog "Introduction to MongoDB and Python")
+-   [Introduction to MongoDB and Python](https://realpython.com/introduction-to-mongodb-and-python/)
 
 -   [mongo Shell Methods](https://alx-intranet.hbtn.io/rltoken/2dFT59bMtL9W3GmjIhedYQ "mongo Shell Methods")
 
--   [The mongo Shell](https://alx-intranet.hbtn.io/rltoken/3Qxitf3XQlOaRUJzkK7PKA "The mongo Shell")
+-   [The mongo Shell](https://www.mongodb.com/docs/manual/reference/method/)
 
 ## Learning Objectives
 
-At the end of this project, you are expected to be able to  [explain to anyone](https://alx-intranet.hbtn.io/rltoken/EHQwWpxfHWsBG-AqOWROvw "explain to anyone"),  **without the help of Google**:
+At the end of this project, you are expected to be able to  [explain to anyone](https://fs.blog/feynman-learning-technique/),  **without the help of Google**:
 
 ### General
 
@@ -85,7 +85,7 @@ At the end of this project, you are expected to be able to  [explain to anyone](
 
 ### Install MongoDB 4.2 in Ubuntu 18.04
 
-[Official installation guide](https://intranet.hbtn.io/rltoken/X8SLDErYEDJRcRudnt6i1g "Official installation guide")
+[Official installation guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
 
 ```bash
 $ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | apt-key add -
@@ -349,7 +349,7 @@ esac
 
 exit 0
 ```
-Potential issue if documents creation doesn’t work or this error:  `Data directory /data/db not found., terminating`  ([source](https://intranet.hbtn.io/rltoken/RuEv46l7OtXQZ3doQD7vjw "source")  and  [source](https://intranet.hbtn.io/rltoken/z_-s1Cfi7CdU-bemtQqQkQ "source"))
+Potential issue if documents creation doesn’t work or this error:  `Data directory /data/db not found., terminating`  ([source](https://bryantson.medium.com/fixing-data-db-not-found-error-in-macos-x-when-starting-mongodb-d7b82abb2479)  and  [source](https://stackoverflow.com/questions/37702957/mongodb-data-db-not-found))
 
 ```
 $ sudo mkdir -p /data/db
